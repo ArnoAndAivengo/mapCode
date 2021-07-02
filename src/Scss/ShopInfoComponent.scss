@@ -1,0 +1,40 @@
+.shopInfoComponent-container{
+  box-sizing: border-box;
+  font-family: Segoe UI;
+  cursor: pointer;
+  .shopInfoComponent-container-title{
+    font-weight: bold;
+    font-size: 14px;
+    color: #333333;
+    margin-bottom: 5px;
+  }
+  .shopInfoComponent-container-font{
+    color: #666666;
+    font-size: 13px;
+    margin-bottom: 5px;
+  }
+  .shopInfoComponent-container-rowBox{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .shopInfoComponent-container-rowBox-column{
+      display: flex;
+      justify-content: space-between;
+      width: calc( (100%/2) - 15px * 2);
+      height: 18px;
+      border-radius: 9px;
+      padding: 10px;
+      color:#fff;
+      &.blue{
+        background-color: #73C0D8;
+      }
+      &.red{
+        background-color:#FFA573
+      }
+      &.gray{
+        background-color: #AEAEAE;
+      }
+    }
+  }
+}

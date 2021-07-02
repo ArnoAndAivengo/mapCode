@@ -1,0 +1,27 @@
+{
+  "name": "react-map-leaflet",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "leaflet": "1.3.4",
+    "leaflet.markercluster": "1.4.1",
+    "moment": "2.24.0",
+    "node-sass": "4.13.1",
+    "react": "16.12.0",
+    "react-dom": "16.12.0",
+    "react-leaflet": "2.0.1",
+    "react-leaflet-markercluster": "2.0.0-rc3",
+    "react-scripts": "3.3.1",
+    "react-virtualized-auto-sizer": "1.0.2",
+    "react-window": "1.8.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

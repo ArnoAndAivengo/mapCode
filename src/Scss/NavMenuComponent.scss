@@ -1,0 +1,62 @@
+.navMenuComponent-titleContainer{
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 10px;
+  background-color: #73C0D8;
+  .navMenuComponent-titleContainer-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .navMenuComponent-titleContainer-title{
+      font-size: 30px;
+      color: #FFFFFF;
+    }
+    .navMenuComponent-titleContainer-dateContent{
+      color: #fff;
+      font-size: 16px;      
+      >p{
+        margin-bottom: 5px;
+      }
+    }
+  }
+  .navMenuComponent-titleContainer-searchBar{
+    width: 100%;
+    height: 40px;
+    border-radius: 24.5px;
+    box-sizing: border-box;
+    padding: 0px 15px;
+    transition: 0.5s;
+    border: 1px solid #fff;
+    margin-top: 5px;
+    input{
+      width: 100%;
+      height: 100%;
+      color:  #fff;
+      outline: none;
+      border:none;
+      padding: 0;
+      margin: 0;
+      font-size: 16px;
+      background-color: transparent;
+      &::placeholder{
+        color:#fff
+      }
+    }
+  }
+}
+.navMenuComponent-shopListContainer{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  // overflow: scroll;
+  .navMenuComponent-shopListContainer-cardContent{
+    width: 100%;
+    height: 122px;
+    background-color: #fff;
+    box-sizing: border-box;
+    padding: 10px;
+    border-bottom: solid 1px #efefef
+  }
+}
